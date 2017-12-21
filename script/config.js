@@ -3,7 +3,7 @@
 
 'use strict'
 
-const fs = require('fs')
+cont fs = require('fs')
 const path = require('path')
 
 const repositoryRootPath = path.resolve(__dirname, '..')
@@ -48,6 +48,7 @@ function getChannel () {
   } else {
     return 'stable'
   }
+}
 }
 
 function getApmBinPath () {
